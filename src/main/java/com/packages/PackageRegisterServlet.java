@@ -42,7 +42,7 @@ public class PackageRegisterServlet extends HttpServlet {
                 InputStream imageInputStream = packagePicturePart.getInputStream();
                 prepared.setBlob(4, imageInputStream);  
             } else {
-                String absolutePath = "C:\\Users\\HP\\eclipse-workspace\\GymMembershipManagementSystem\\src\\main\\webapp\\images\\gym3.jpg";
+                String absolutePath = "C:\\Users\\HP\\eclipse-workspace\\GymMembershipManagementSystem\\src\\main\\webapp\\images\\gym1.jpg";
                 File defaultImageFile = new File(absolutePath);
 
                 InputStream defaultImageInputStream = new FileInputStream(defaultImageFile);
